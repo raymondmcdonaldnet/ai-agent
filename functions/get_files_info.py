@@ -1,5 +1,6 @@
 import os
 
+
 def get_files_info(working_directory, directory="."):
 	try:
 		dir = os.path.join(working_directory, directory)

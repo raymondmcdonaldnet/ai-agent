@@ -2,6 +2,7 @@ import os
 
 MAX_CHARS = 10000
 
+
 def get_file_content(working_directory, file_path):
 	try:
 		dir = os.path.join(working_directory, file_path)
